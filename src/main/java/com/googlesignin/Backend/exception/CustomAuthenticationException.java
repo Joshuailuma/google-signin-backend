@@ -1,7 +1,6 @@
 package com.googlesignin.Backend.exception;
 
-import jakarta.persistence.GeneratedValue;
-import lombok.AllArgsConstructor;
+
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
