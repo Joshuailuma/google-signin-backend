@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: Backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/signin-db
+    username: postgres
+    password: password
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+google:
+  client:
+    id: your-client-id.apps.googleusercontent.com
+
+secret:
+  jwt:
+    token: your-long-secret
+
